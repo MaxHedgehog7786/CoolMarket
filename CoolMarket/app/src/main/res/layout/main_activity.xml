@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:text="CoolMarket"
+        android:textColor="@color/green"
+        android:gravity="center"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/CB1"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Молоко"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/CB2"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Хлеб"
+        android:textColor="@color/white"
+        android:textSize="25dp">
+
+    </CheckBox>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/CB3"
+            android:layout_width="199dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Сигареты"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/CB4"
+            android:layout_width="199dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Водка"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </CheckBox>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/CB5"
+            android:layout_width="199dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Макароны"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/CB6"
+            android:layout_width="199dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Гречка"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </CheckBox>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="Выберите способ доставки:"></TextView>
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Дрон"
+            android:textColor="@color/white"
+            android:textSize="25dp"></RadioButton>
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Робопес"
+            android:textColor="@color/white"
+            android:textSize="25dp"></RadioButton>
+        <RadioButton
+            android:id="@+id/RB3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Курьер Ашот"
+            android:textColor="@color/white"
+            android:textSize="25dp"></RadioButton>
+    </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Комментарий к заказу"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textColorHint="@color/gray"></EditText>
+
+
+    <Button
+        android:id="@+id/Accept"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:backgroundTint="@color/green"
+        android:text="Подтвердить" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></TextView>
+    <Button
+        android:id="@+id/Clear"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:backgroundTint="@color/blue"
+        android:text="Очистить" />
+
+
+</LinearLayout>
